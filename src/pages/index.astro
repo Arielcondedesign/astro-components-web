@@ -1,6 +1,5 @@
 ---
 import { Button } from 'free-astro-components'
-import Code from '../components/Code.astro'
 import CTA from '../sections/CTA.astro'
 import Footer from '../components/Footer.astro'
 import Header from '../components/Header.astro'
@@ -10,29 +9,27 @@ import Layout from '../layouts/Layout.astro'
 import Sidebar from '../layouts/Sidebar.astro'
 ---
 
-<Layout title="Free Astro Components">
+<Layout title="Únete a Glocal Limits y sé parte del cambio hacia un futuro sostenible">
   <Sidebar class="lg:hidden" />
   <Header />
   <main>
     <Hero
       align="center"
-      title="A collection of <strong>Free Astro Components</strong>"
-      description="You can use these components to build your Astro projects faster."
+      title="Únete a nosotros para crear un <strong>futuro sostenible</strong>"
+      description="Empodérate para tener un impacto positivo en el medio ambiente con Glocalimits España."
     >
       <div>
-        <Button href="/guide/installation" label="Get started" />
+        <Button href="#form" label='Únete ahora' variant='secondary' />
       </div>
-      <div>
-        <Code code="npm install free-astro-components" />
-      </div>
+      
     </Hero>
     <Intro />
     <CTA
       align="center"
-      title="Ready to <strong>Get Started?</strong>"
-      description="Explore my collection of free Astro components and start building your next project today."
+      title="¿Listo para unirte al <strong>cambio?</strong>"
+      description="Explora cómo puedes ser parte de la solución y contribuir a un futuro sostenible. En Glocal Limits, te ofrecemos las herramientas y el apoyo necesario para marcar la diferencia."
     >
-      <Button href="/components/button" label="Explore Components" />
+      <Button href="/components/button" label="Enviar" variant='secondary'  />
     </CTA>
   </main>
   <Footer />
